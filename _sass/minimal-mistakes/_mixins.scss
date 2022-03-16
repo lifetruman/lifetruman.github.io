@@ -72,7 +72,18 @@
   @return if($yiq >= $threshold, true, false);
 }
 
-@function yiq-contrast-color(
+//기존컬러
+// @function yiq-contrast-color(
+//   $color,
+//   $dark: $yiq-contrasted-dark-default,
+//   $light: $yiq-contrasted-light-default,
+//   $threshold: $yiq-contrasted-threshold
+// ) {
+//   @return if(yiq-is-light($color, $threshold), $yiq-contrasted-dark-default, $yiq-contrasted-light-default);
+// }
+
+//변경한 컬러
+@function yiq-contrast-color( 
   $color,
   $dark: $yiq-contrasted-dark-default,
   $light: $yiq-contrasted-light-default,
@@ -87,6 +98,6 @@
   $light: $yiq-contrasted-light-default,
   $threshold: $yiq-contrasted-threshold
 ) {
-  background-color: $background-color;
+  background-color: $background-color; //기존컬러
   color: yiq-contrast-color($background-color, $dark, $light, $threshold);
 }

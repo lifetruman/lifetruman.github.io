@@ -5,13 +5,17 @@
 /* Colors */
 $text-color: #000 !default;
 $muted-text-color: $text-color !default;
-$primary-color: #ff0000 !default;
+$btn-text-color: #427cf1 !default; //새로 만든 컬러...버튼
+// $primary-color: #ff0000 !default; //기존컬러
+$primary-color: #1c64f2 !default; //변경한 컬러
 $border-color: mix(#fff, $text-color, 75%) !default;
 $footer-background-color: #000 !default;
-$link-color: #0000ff !default;
+// $link-color: #0000ff !default; //기존컬러
+$link-color: #000 !default; //변경한 컬러
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
-$navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
+// $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default; //기존컬러
+$navicon-link-color-hover: mix(#fff, #fff, 80%) !default; //변경한 컬러
 
 /* contrast syntax highlighting (base16) */
 $base00: #000000 !default;

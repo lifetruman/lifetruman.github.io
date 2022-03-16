@@ -19,7 +19,7 @@ html {
   }
 
   @include breakpoint($x-large) {
-    font-size: 22px;
+    font-size: 20px; //22px에서 20px로 변경
   }
 
   -webkit-text-size-adjust: 100%;

@@ -4,6 +4,8 @@
 
 {% unless site.atom_feed.hide %}
   <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+  <!-- favicon 추가 -->
+  <!-- <link href="{{ site.asset_url }}/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/> -->
 {% endunless %}
 
 <!-- https://t.co/dKP3o1e -->
@@ -17,6 +19,8 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+<!-- fontawesome 설치 -->
+<script src="https://kit.fontawesome.com/a13a16c96c.js" crossorigin="anonymous"></script>
 
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}

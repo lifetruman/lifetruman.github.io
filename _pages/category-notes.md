@@ -1,7 +1,7 @@
 ---
-title: "TAG"
-layout: tags
-permalink: /tags/
+title: "NOTES"
+layout: archive
+permalink: notes
 author_profile: false
 sidebar_main: true
 sidebar:

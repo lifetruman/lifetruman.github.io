@@ -219,8 +219,10 @@ textarea:focus {
   border-color: $primary-color;
   outline: 0;
   outline: thin dotted \9;
-  box-shadow: inset 0 1px 3px rgba($text-color, 0.06),
-    0 0 5px rgba($primary-color, 0.7);
+  // box-shadow: inset 0 1px 3px rgba($text-color, 0.06),
+  //   0 0 5px rgba($primary-color, 0.7); //기존컬러
+  box-shadow: inset 0 0 0 2px rgb(28, 100, 242); //변경한 컬러
+  // box-shadow: 0 0 3px 2px rgba(28, 100, 242, 0.35); //변경한 컬러...쉐도우 연하게
 }
 
 input[type="file"]:focus,

@@ -133,7 +133,7 @@
     border-radius: $border-radius;
 
     &:hover {
-      @include yiq-contrasted($muted-text-color);
+      @include yiq-contrasted($btn-text-color);
     }
 
     &:first-child {
@@ -522,7 +522,8 @@
 
   // Scrollspy marks toc items as .active when they are in focus
   .active a {
-    @include yiq-contrasted($active-color);
+    // @include yiq-contrasted($active-color); //기존컬러
+    @include yiq-contrasted($active-background-color); //변경한 컬러
   }
 }
 
