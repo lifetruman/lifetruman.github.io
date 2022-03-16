@@ -1,7 +1,7 @@
 ---
-title: "TOY POROJECT"
-layout: archive
-permalink: toyproject
+title: "PORTFOLIO"
+layout: category
+permalink: portfolio
 author_profile: false
 sidebar_main: true
 sidebar:

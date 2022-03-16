@@ -1,7 +1,7 @@
 ---
-title: "PORTFOLIO"
-layout: archive
-permalink: portfolio
+title: "DIARY"
+layout: category
+permalink: diary
 author_profile: false
 sidebar_main: true
 sidebar:
