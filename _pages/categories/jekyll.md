@@ -2,7 +2,7 @@
 layout: archive
 permalink: jekyll
 title: "Jekyll"
-
+published: true
 author_profile: false
 sidebar:
   nav: "docs"

@@ -2,7 +2,7 @@
 layout: archive
 permalink: toyproject
 title: "Toy Project"
-
+published: true
 author_profile: false
 sidebar:
   nav: "docs"

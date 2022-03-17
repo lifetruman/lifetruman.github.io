@@ -2,7 +2,7 @@
 layout: archive
 permalink: notes
 title: "Notes"
-
+published: true
 author_profile: false
 sidebar:
   nav: "docs"

@@ -2,7 +2,7 @@
 layout: archive
 permalink: portfolio
 title: "Portfolio"
-
+published: true
 author_profile: false
 sidebar:
   nav: "docs"

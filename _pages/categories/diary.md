@@ -2,7 +2,7 @@
 layout: archive
 permalink: diary
 title: "Diary"
-
+published: true
 author_profile: false
 sidebar:
   nav: "docs"
