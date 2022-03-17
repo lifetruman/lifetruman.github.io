@@ -27,6 +27,7 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/truman.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+future                   : true
 breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
@@ -103,7 +104,7 @@ analytics:
 # Site Author
 author:
   name             : "lifetruman"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/truman.jpg"
   bio              : "**1 day 1 commit**"
   # location         : "busan"
   # email            :

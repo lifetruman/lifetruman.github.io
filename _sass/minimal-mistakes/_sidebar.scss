@@ -134,12 +134,13 @@
   }
 
   img {
-    max-width: 110px;
+    // max-width: 110px; //기존값
+    max-width: 200px;
     border-radius: 50%;
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 1px solid $border-color;
+      // border: 1px solid $border-color; //기존값
     }
   }
 }
@@ -256,13 +257,15 @@
   }
 
   @include breakpoint($large) {
-    display: block;
+    // display: block; //기존값
+    display: flex; //수정값
     position: relative;
     margin: 0;
     padding: 0;
     border: 0;
     background: transparent;
     box-shadow: none;
+    gap: 10px; //추가값
   }
 
   &:before {

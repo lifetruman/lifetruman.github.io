@@ -25,16 +25,16 @@ main:
 docs:
   - title: "STUDY"
     children:
-      - title: "DIARY"
+      - title: "Diary"
         url: /diary/
-      - title: "NOTES"
+      - title: "Notes"
         url: /notes/
   
   - title: "PROJECT"
     children:
-      - title: "TOY PROJECT"
+      - title: "ToyProject"
         url: /toyproject/
-      - title: "PORTFOLIO"
+      - title: "Portfolio"
         url: /portfolio/
 
 
