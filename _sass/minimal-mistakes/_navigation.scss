@@ -443,6 +443,7 @@
 
   a {
     color: inherit;
+    // margin-left: 10px; //추가한 설정
   }
 
   .active {
@@ -497,6 +498,7 @@
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
+  width: 220px; //추가한 설정
 }
 
 /*

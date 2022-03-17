@@ -1,13 +1,17 @@
 ---
-title: "노트 테스트"
-categories: Diary
-# tag: [test, blog]
-toc: true
-toc_sticky: true
-toc_label: "CONTENTS"
-author_profile: false
+layout: single
+title: "서브 카테고리 테스트"
+folder: "diary"
+categories:
+  - diary
+tags: [diary]
+author_profile: false #프로필을 보이게 할지(true) 안할지(false) 선택
 sidebar:
-    nav: "docs"
+    nav: "docs" #사이드바 정보를 담은 yaml 오브젝트명
+toc: true
+toc_label: "CONTENTS"
+toc_sticky: true
+toc_icon: "bars"
 search: true #seach에서 검색이 안되게하고싶다면 search: false로 막을수있다.
 ---
 **[공지사항]** [안내드립니다.]()

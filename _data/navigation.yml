@@ -1,42 +1,31 @@
 # main links
+# 메인 카테고리
 main:
   # - title: "CATEGORY"
   #   url: /categories/
-  # - title: "TAG"
-  #   url: /tags/
+  - title: "TAG"
+    url: /tags/
   - title: "SEARCH"
     url: /search/
 
-# docs:
-#   - title: "STUDY"
-#     children:
-#       - title: "Category"
-#         url: /categories/
-#       - title: "Tag"
-#         url: /tags/
-  
-#   - title: "PROJECT"
-#     children:
-#       - title: "Category"
-#         url: /categories/
-#       - title: "Tag"
-#         url: /tags/
-
+# 서브 카테고리
 docs:
-  - title: "STUDY"
+  - title: <i class="fa-solid fa-folder-open" style="color:#1d65f2;"></i> STUDY
     children:
-      - title: "Diary"
-        url: /diary/
       - title: "Notes"
-        url: /notes/
-  
-  - title: "PROJECT"
+        url: notes/
+        category: "notes"
+      - title: "Diary"
+        url: diary/
+        category: "diary"
+  - title: <i class="fa-solid fa-folder-open" style="color:#1d65f2;"></i> PROJECT
     children:
       - title: "ToyProject"
-        url: /toyproject/
+        url: toyproject/
+        category: "toyproject"
       - title: "Portfolio"
-        url: /portfolio/
-
+        url: portfolio/
+        category: "portfolio"
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
