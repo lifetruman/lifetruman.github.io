@@ -73,7 +73,8 @@ body {
   line-height: 1;
 
   a {
-    color: $text-color;
+    // color: $text-color; //기존컬러
+    color: #4c88ff; //변경한 컬러
     text-decoration: none;
   }
 
